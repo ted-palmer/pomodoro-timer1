@@ -16,6 +16,7 @@ const TimerContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-overflow: none;
 `;
 const Timer = () => {
   const [time, setTime] = useState(1500);
